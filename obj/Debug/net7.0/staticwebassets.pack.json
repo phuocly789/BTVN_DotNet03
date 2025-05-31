@@ -1,0 +1,109 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\CarBasic\\icons\\icon-black.jpg",
+      "PackagePath": "staticwebassets\\CarBasic\\icons\\icon-black.jpg"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\CarBasic\\icons\\icon-red.jpg",
+      "PackagePath": "staticwebassets\\CarBasic\\icons\\icon-red.jpg"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\CarBasic\\icons\\icon-silver.jpg",
+      "PackagePath": "staticwebassets\\CarBasic\\icons\\icon-silver.jpg"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\CarBasic\\icons\\icon-steel.jpg",
+      "PackagePath": "staticwebassets\\CarBasic\\icons\\icon-steel.jpg"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\CarBasic\\products\\black-car.jpg",
+      "PackagePath": "staticwebassets\\CarBasic\\products\\black-car.jpg"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\CarBasic\\products\\red-car.jpg",
+      "PackagePath": "staticwebassets\\CarBasic\\products\\red-car.jpg"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\CarBasic\\products\\silver-car.jpg",
+      "PackagePath": "staticwebassets\\CarBasic\\products\\silver-car.jpg"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\CarBasic\\products\\steel-car.jpg",
+      "PackagePath": "staticwebassets\\CarBasic\\products\\steel-car.jpg"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi25_Bai2\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Buoi25_Bai2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Buoi25_Bai2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Buoi25_Bai2.props",
+      "PackagePath": "build\\Buoi25_Bai2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Buoi25_Bai2.props",
+      "PackagePath": "buildMultiTargeting\\Buoi25_Bai2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Buoi25_Bai2.props",
+      "PackagePath": "buildTransitive\\Buoi25_Bai2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

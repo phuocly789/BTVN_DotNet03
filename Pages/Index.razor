@@ -1,0 +1,25 @@
+﻿@page "/"
+@layout MainLayout
+
+<div class="container mt-4">
+    <h2>Change color car</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@CarImage" alt="Car" class="img-fluid" style="max-width: 100%; height: auto;" />
+        </div>
+        <div class="col-md-6  justify-content-center">
+            <button class="btn btn-danger mb-2" @onclick='() => ChangeColor("red")'>Red color</button>
+            <button class="btn btn-secondary mb-2" @onclick='() => ChangeColor("silver")'>Silver color</button>
+            <button class="btn btn-dark mb-2" @onclick='() => ChangeColor("black")'>Black color</button>
+            <button class="btn btn-secondary mb-2" @onclick='() => ChangeColor("steel")'>Steel color</button>
+        </div>
+    </div>
+</div>
+@code {
+    public string CarColor { get; set; } = "red";
+    public string CarImage { get; set; } = "CarBasic/products/red-car.jpg";
+    public void ChangeColor(string color)
+    {
+        CarImage = $"CarBasic/products/{color}-car.jpg";
+    }
+}
