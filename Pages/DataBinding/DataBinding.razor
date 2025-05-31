@@ -1,0 +1,38 @@
+@page "/data-binding"
+@layout HomeLayout
+<div class="container">
+    <h1>One Way Binding</h1>
+    <span class="badge bg-dark">Hello ! @name</span>
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <img style="height: 350px;" src="https://i.pravatar.cc?u=@prod.id" alt="...." />
+                <div class="card-body">
+                    <h1 class="card-title">@prod.ten</h1>
+                    <p class="card-text">@prod.price</p>
+
+                    <button class="btn btn-dark">Show More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <span class="alert alert-danger d-inline-block">
+        TinhTong = @TinhTong(5, 10)
+    </span>
+
+</div>
+@code {
+    private string name { get; set; } = "LMP";
+    private Product prod = new Product();
+    class Product
+    {
+        public int id { get; set; } = 1;
+        public string ten { get; set; } = "iPhone";
+        public decimal price { get; set; } = 1000;
+    }
+    public int TinhTong(int a, int b)
+    {
+        return a + b;
+    }
+}

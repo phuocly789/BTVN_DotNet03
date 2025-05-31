@@ -1,0 +1,28 @@
+@page "/componetnt-param"
+
+<div class="container">
+    <h1>demo component Parameter</h1>
+    <div class="row">
+      @foreach(ProductCartVM item in lstProduct)
+      {
+        <div class="col-md-4 mt-2">
+            <ProductCart prodItem="@item"/>
+        </div>
+      }
+    </div>
+</div>
+@code {
+    List<ProductCartVM> lstProduct = new List<ProductCartVM>()
+    {
+        new ProductCartVM { Id = 1, name = "iPhone", price = 1000, img = "https://picsum.photos/id/11/1000/1000" },
+        new ProductCartVM { Id = 2, name = "Samsung Galaxy", price = 950, img = "https://picsum.photos/id/12/1000/1000" },
+        new ProductCartVM { Id = 3, name = "Google Pixel", price = 920, img = "https://picsum.photos/id/13/1000/1000" },
+        new ProductCartVM { Id = 4, name = "Xiaomi Mi", price = 850, img = "https://picsum.photos/id/14/1000/1000" },
+        new ProductCartVM { Id = 5, name = "Oppo Reno", price = 880, img = "https://picsum.photos/id/15/1000/1000" },
+        new ProductCartVM { Id = 6, name = "Sony Xperia", price = 970, img = "https://picsum.photos/id/16/1000/1000" },
+        new ProductCartVM { Id = 7, name = "OnePlus", price = 890, img = "https://picsum.photos/id/17/1000/1000" },
+        new ProductCartVM { Id = 8, name = "Huawei", price = 860, img = "https://picsum.photos/id/18/1000/1000" },
+        new ProductCartVM { Id = 9, name = "Nokia", price = 780, img = "https://picsum.photos/id/19/1000/1000" },
+        new ProductCartVM { Id = 10, name = "Motorola", price = 740, img = "https://picsum.photos/id/10/1000/1000" }
+        };
+    }

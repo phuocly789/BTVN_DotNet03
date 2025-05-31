@@ -1,0 +1,32 @@
+@page "/event-binding"
+@layout HomeLayout
+<div class="container">
+    <span class="alert alert-danger d-inline-block">
+        Count: @Count
+    </span><br>
+    <button class="btn btn-dark" @onclick="tangDem">Onlick</button>
+    <br>
+    <div class="card w-25 mt-5">
+        <img src="https://i.pravatar.cc?u=@random" alt="...">
+        <div class="card-body">
+            <button class="btn btn-danger" @onclick="X">
+                Random <i class="fa fa-heart"></i>
+            </button>
+        </div>
+    </div>
+    <img src="/favicon.png" alt="">
+</div>
+@code {
+    public int Count { get; set; } = 0;
+    public int random { get; set; } = 1;
+    public void tangDem()
+    {
+        Count++;
+    }
+    Random rd = new Random();
+    public void X()
+    {
+        random = rd.Next(1,100);
+
+    }
+}

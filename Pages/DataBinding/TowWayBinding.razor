@@ -1,0 +1,59 @@
+@page "/tow-way-binding"
+@layout HomeLayout
+
+<EditForm Model="@userRegister" class="w-50 mx-auto" OnValidSubmit="handleSubmit">
+    <h3> Register</h3>
+    <DataAnnotationsValidator />
+    <ValidationSummary class="alert alert-danger px-3" />
+    <div class="form-group">
+        <label for="">UserName: </label>
+        <input class="form-control" @bind="@userRegister.Username" type="text" placeholder="Enter UserName">
+        <ValidationMessage For="@(() => userRegister.Username)" class="text text-danger" />
+    </div>
+    <div class="form-group">
+        <label for="">Password: </label>
+        <input class="form-control" @bind="@userRegister.Password" type="password" placeholder="Enter Password">
+        <ValidationMessage For="@(() => userRegister.Password)" class="text text-danger" />
+    </div>
+    <div class="form-group">
+        <label for="">FullName: </label>
+        <input class="form-control" @bind="@userRegister.FullName" type="text" placeholder="Enter FullName">
+        <ValidationMessage For="@(() => userRegister.FullName)" class="text text-danger" />
+    </div>
+    <div class="form-group my-3">
+        <label for="">Gender: </label>
+        <input id="Male" class="form-check-input" @onchange="() => changeGender(true)" type="radio" name="gender"
+            checked value="true">
+        <label for="Male" class="form-check-label">Male</label>
+        <input id="FeMale" class="form-check-input" @onchange="() => changeGender(false)" type="radio" name="gender"
+            value="false">
+        <label for="FeMale" class="form-check-label">FeMale</label>
+    </div>
+    <div class="form-group">
+        <label for="">Country: </label>
+        <select class="form-control" @bind="@userRegister.Country">
+            <option value="">------------Select Coutry------------</option>
+            @foreach (var item in Coutries.lstCoutry)
+            {
+                <option value="@item">@item</option>
+            }
+        </select>
+              <ValidationMessage For="@(() => userRegister.Country)" class="text text-danger" />
+    </div>
+    <div class="form-group mt-2">
+        <button class="btn btn-success" type="submit">Register</button>
+    </div>
+</EditForm>
+@code {
+    public UserRegister userRegister = new UserRegister();
+
+    public void handleSubmit()
+    {
+        string stringValue = JsonSerializer.Serialize(userRegister);
+        Console.WriteLine(stringValue);
+    }
+    public void changeGender(bool value)
+    {
+        userRegister.Gender = value;
+    }
+}

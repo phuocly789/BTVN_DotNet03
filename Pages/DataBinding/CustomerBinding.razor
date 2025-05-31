@@ -1,0 +1,63 @@
+@page "/customer"
+@layout HomeLayout
+
+<EditForm Model="@customer" class="w-50 mx-auto" OnValidSubmit="handleSubmit">
+    <h3 class="text-center"> Customer Contact Form</h3>
+    <DataAnnotationsValidator />
+    <ValidationSummary class="alert alert-danger px-3" />
+    <div class="form-group">
+        <label for="">FullName: </label>
+        <input class="form-control" @bind="@customer.FullName" type="text" placeholder="Enter FullName">
+        <ValidationMessage For="@(() => customer.FullName)" class="text text-danger" />
+    </div>
+    <div class="form-group">
+        <label for="">Email: </label>
+        <input class="form-control" @bind="@customer.Email" type="email" placeholder="Enter Email">
+        <ValidationMessage For="@(() => customer.Email)" class="text text-danger" />
+    </div>
+    <div class="form-group">
+        <label for="">Phone: </label>
+        <input class="form-control" @bind="@customer.Phone" type="number" placeholder="Enter Phone">
+        <ValidationMessage For="@(() => customer.Phone)" class="text text-danger" />
+    </div>
+    <div class="form-group">
+        <label for="">Address: </label>
+        <input class="form-control" @bind="@customer.Address" type="text" placeholder="Enter Address">
+        <ValidationMessage For="@(() => customer.Address)" class="text text-danger" />
+    </div>
+    <div class="form-group">
+        <label for="">Message: </label>
+        <textarea class="form-control" @bind="@customer.Message" type="text" placeholder="Enter Message" rows="6" />
+        <ValidationMessage For="@(() => customer.Message)" class="text text-danger" />
+    </div>
+
+    <div class="form-group">
+        <label for="">Service: </label>
+        <select class="form-control" @bind="@customer.Service">
+            <option value="">Chosse...</option>
+            @foreach (var item in Service.lstService)
+            {
+                <option value="@item">@item</option>
+            }
+        </select>
+        <ValidationMessage For="@(() => customer.Service)" class="text text-danger" />
+    </div>
+    <div class="form-group">
+        <input type="checkbox" @bind="@customer.Agree" />
+        <label>I agree to terms and conditions</label>
+        <ValidationMessage For="@(() => customer.Agree)" class="text text-danger" />    
+    </div>
+    <div class="form-group mt-2 text-center w-100">
+        <button class="btn btn-success text-center w-100" type="submit">Submit</button>
+    </div>
+</EditForm>
+@code {
+    public Customer customer = new Customer();
+
+    public void handleSubmit()
+    {
+        string stringValue = JsonSerializer.Serialize(customer);
+        Console.WriteLine(stringValue);
+    }
+
+}
