@@ -1,0 +1,9 @@
+section h2 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.text-danger.small {
+    white-space: nowrap;
+}
