@@ -1,0 +1,62 @@
+<div class="modal show d-block" tabindex="-1" style="background-color: rgba(0,0,0,0.5);">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content shadow rounded-4">
+            <div class="modal-header bg-primary text-white rounded-top-4">
+                <h5 class="modal-title d-flex align-items-center">
+                    <i class="fa fa-money me-2"></i> @ActionType Money
+                </h5>
+                <button type="button" class="btn-close btn-close-white" @onclick="OnCancelled"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <label class="form-label">Enter amount</label>
+                <input type="number" class="form-control form-control-lg" @bind="@amount" min="0" />
+                @if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    <div class="alert alert-danger mt-2" role="alert">
+                        @errorMessage
+                    </div>
+                }
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" @onclick="OnCancelled">
+                    <i class="fa fa-times me-1"></i> Cancel
+                </button>
+                <button type="button" class="btn btn-success" @onclick="Confirm">
+                    <i class="fa fa-check me-1"></i> Confirm
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public string ActionType { get; set; } = "Deposit";
+    [Parameter] public EventCallback<decimal> OnConfirmed { get; set; }
+    [Parameter] public EventCallback OnCancelled { get; set; }
+    [Parameter] public decimal Balance { get; set; }
+    private string? errorMessage;
+    private decimal amount;
+
+    private async Task Confirm()
+    {
+        errorMessage = null;
+
+        if (amount <= 0)
+        {
+            errorMessage = "Amount must be greater than 0.";
+            return;
+        }
+
+        if (ActionType == "Withdraw" && amount > Balance)
+        {
+            errorMessage = "Insufficient balance.";
+            return;
+        }
+
+        await OnConfirmed.InvokeAsync(amount);
+        amount = 0;
+    }
+
+}
