@@ -1,0 +1,92 @@
+@page "/admin/product"
+@inject ProductService _productService
+@inject NavigationManager _nav
+@layout HomeLayout
+
+<div class="container py-4">
+    <!-- Breadcrumb -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/admin/product-management">Product management</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Add Product</li>
+        </ol>
+    </nav>
+
+    <!-- Title -->
+    <h4 class="mb-4">Add Product</h4>
+
+    <!-- Form -->
+    <EditForm Model="newProduct" OnValidSubmit="HandleValidSubmit" class="w-75 mx-auto">
+        <div class="mb-3">
+            <label class="form-label">Id:</label>
+            <input type="text" class="form-control" @bind="newProduct.id" placeholder="Enter product name">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Name:</label>
+            <input type="text" class="form-control" @bind="newProduct.name" placeholder="Enter alias">
+        </div>
+        <div class="mb-3">
+            <label for="type">Type</label>
+            <select class="form-control" @bind="newProduct.type">
+
+                <option value="">Chose Type</option>
+                <option value="Laptop">Laptop</option>
+                <option value="Phone">Phone</option>
+                <option value="Tablet">Tablet</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Price:</label>
+            <input type="number" class="form-control" @bind="newProduct.price">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Image:</label>
+            <input class="form-control" rows="3" @bind="newProduct.img" placeholder="Enter image"></input>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Description:</label>
+            <textarea class="form-control" rows="3" @bind="newProduct.description"
+                placeholder="Enter description"></textarea>
+        </div>
+
+        <!-- Buttons -->
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Add Product</button>
+            <button type="reset" class="btn btn-secondary">Cancel</button>
+        </div>
+        @if (submit == 1)
+        {
+            <div class="alert alert-success mt-2">
+                @_productService.responseMessage
+            </div>
+        }
+        else if (submit == 2)
+        {
+            <div class="alert alert-danger mt-2">
+                @_productService.responseMessage
+
+            </div>
+        }
+        <!-- Go back -->
+        <div>
+            <a href="/admin/product-management" class="text-decoration-none">&laquo; Goback</a>
+        </div>
+    </EditForm>
+</div>
+@code {
+    Timer timer;
+    private Product newProduct = new Product();
+    public int submit = 0;
+    private async Task HandleValidSubmit()
+    {
+        Console.WriteLine(JsonSerializer.Serialize(newProduct));
+        submit = await _productService.createProduct(newProduct);
+        if (submit == 1)
+        {
+            timer = new Timer((state) =>
+            {
+                _nav.NavigateTo("/admin/product-management");
+            }, null, 2000, 10000);
+        }
+    }
+}

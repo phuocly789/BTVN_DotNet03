@@ -1,0 +1,99 @@
+@page "/admin/product-management"
+@layout HomeLayout
+@inject ProductService _productService
+@inject NavigationManager _navService
+<div class="container py-4">
+    <!-- Breadcrumb -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item " aria-current="page">Product management</li>
+            @* <li class="breadcrumb-item "><a href="/admin/product">Add Product</a></li> *@
+        </ol>
+    </nav>
+
+    <!-- Title and Add button -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4 class="mb-0">Product management</h4>
+        <a type="button" href="/admin/product" class="btn btn-success">Add new product</a>
+    </div>
+
+    <!-- Search bar -->
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Search product ..." @bind="k" readonly>
+        <button class="btn btn-success" type="button" @onclick="SearchProduct">Search</button>
+    </div>
+
+    <!-- Table -->
+    <div class="table-responsive">
+        <table class="table table-bordered align-middle text-center">
+            <thead class="table-light">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Image</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Sample Row -->
+                @foreach (var item in _productService.lstProduct)
+                {
+                    <tr>
+                        <td>@item.id</td>
+                        <td>@item.name</td>
+                        <td><img src="@item.img" width="50" alt="shoe 1"></td>
+                        <td>@item.type</td>
+                        <td>@FormatVND(item.price)</td>
+                        <td>
+                            <button class="btn btn-danger btn-sm me-1" @onclick="() => handleDelete(item.id)">Del</button>
+                            <NavLink href="@($"/admin/product-edit/{item.id}")">
+                                <button class="btn btn-success btn-sm">Edit</button>
+                            </NavLink>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Pagination -->
+    <nav>
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+</div>
+@code {
+    public string k { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        _productService.OnChange += StateHasChanged;
+        var url = new Uri(_navService.Uri);
+        var query = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(url.Query);
+        string keyword = query.GetValueOrDefault("k");
+        await _productService.getAllProduct(keyword);
+    }
+    private async Task SearchProduct()
+    {
+        _navService.NavigateTo($"/admin/product-management?k={k}", true);
+    }
+    public async Task handleDelete(string id)
+    {
+        await _productService.deleteProductById(id);
+    }
+    private string FormatVND(string price)
+    {
+        if (decimal.TryParse(price, out var value))
+        {
+            var culture = new CultureInfo("vi-VN");
+            return value.ToString("C0", culture); // "C0" => không có số lẻ, hiển thị "₫"
+        }
+        return price;
+    }
+}

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\dotnet03_web_blazor.csproj",
+      "projectUniqueName": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\dotnet03_web_blazor.csproj",
       "projectName": "dotnet03_web_blazor",
-      "projectPath": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\dotnet03_web_blazor.csproj",
+      "projectPath": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\dotnet03_web_blazor.csproj",
       "packagesPath": "C:\\Users\\phuoc\\.nuget\\packages\\",
-      "outputPath": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\",
+      "outputPath": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phuoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

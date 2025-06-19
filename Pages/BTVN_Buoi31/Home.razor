@@ -1,0 +1,96 @@
+
+@page "/Home"
+@layout HomeLayout
+@inject ProductService _productService
+
+<div class="container py-4">
+    <h3 class="mb-4">CellPhones Store</h3>
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-3 mb-4">
+            <div class="list-group shadow-sm rounded">
+                <button class="list-group-item list-group-item-action" @onclick='() => FilterByType("")'>
+                    All
+                </button>
+                <button class="list-group-item list-group-item-action" @onclick='() => FilterByType("Laptop")'>
+                    Laptop
+                </button>
+                <button class="list-group-item list-group-item-action" @onclick='() => FilterByType("Phone")'>
+                    Phone
+                </button>
+                <button class="list-group-item list-group-item-action" @onclick='() => FilterByType("Tablet")'>
+                    Tablet
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Product grid -->
+        <div class="col-md-9">
+            @if (isLoading)
+            {
+                <p>Loading...</p>
+            }
+            else
+            {
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                    @foreach (var item in _productService.lstProduct.Where(item => string.IsNullOrEmpty(selectedType) || item.type
+                                    == selectedType))
+                    {
+                        <div class="col">
+                            <div class="card h-100 shadow-sm border-0">
+                             
+                                    <img src="@item.img" class="card-img-top object-fit-cover" alt="@item.name" />
+                             
+                                <div class="card-body d-flex flex-column justify-content-between">
+                                    <div>
+                                        <h6 class="card-title text-truncate">@item.name</h6>
+                                        <p class="card-text text-muted mb-2">Price: <b>@FormatVND(item.price)</b></p>
+                                    </div>
+                                    <a href="#" class="btn btn-dark btn-sm w-100 mt-auto">Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .card-img-top.object-fit-cover {
+        object-fit: cover;
+    }
+</style>
+@code {
+    private bool isLoading = true;
+    private string selectedType = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        _productService.OnChange += StateHasChanged;
+        await _productService.getAllProduct();
+        isLoading = false;
+    }
+
+    private void FilterByType(string type)
+    {
+        selectedType = type;
+    }
+
+    private string FormatVND(string price)
+    {
+        if (decimal.TryParse(price, out var value))
+        {
+            var culture = new CultureInfo("vi-VN");
+            return value.ToString("C0", culture); // "C0" => không có số lẻ, hiển thị "₫"
+        }
+        return price;
+    }
+
+}
+
+ 
+
+

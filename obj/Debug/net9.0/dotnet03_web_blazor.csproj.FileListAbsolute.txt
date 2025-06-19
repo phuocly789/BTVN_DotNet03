@@ -226,3 +226,42 @@ D:\Bootcamp DotNet 03\BTVN\Buoi27\obj\Debug\net9.0\refint\dotnet03_web_blazor.dl
 D:\Bootcamp DotNet 03\BTVN\Buoi27\obj\Debug\net9.0\dotnet03_web_blazor.pdb
 D:\Bootcamp DotNet 03\BTVN\Buoi27\obj\Debug\net9.0\dotnet03_web_blazor.genruntimeconfig.cache
 D:\Bootcamp DotNet 03\BTVN\Buoi27\obj\Debug\net9.0\ref\dotnet03_web_blazor.dll
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\bin\Debug\net9.0\appsettings.Development.json
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\bin\Debug\net9.0\appsettings.json
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\bin\Debug\net9.0\dotnet03_web_blazor.staticwebassets.endpoints.json
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\bin\Debug\net9.0\dotnet03_web_blazor.staticwebassets.runtime.json
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\bin\Debug\net9.0\dotnet03_web_blazor.exe
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\bin\Debug\net9.0\dotnet03_web_blazor.deps.json
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\bin\Debug\net9.0\dotnet03_web_blazor.runtimeconfig.json
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\bin\Debug\net9.0\dotnet03_web_blazor.dll
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\bin\Debug\net9.0\dotnet03_web_blazor.pdb
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\dotnet03_web_blazor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\dotnet03_web_blazor.AssemblyInfoInputs.cache
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\dotnet03_web_blazor.AssemblyInfo.cs
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\dotnet03_web_blazor.csproj.CoreCompileInputs.cache
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\dotnet03_web_blazor.MvcApplicationPartsAssemblyInfo.cache
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\dotnet03_web_blazor.RazorAssemblyInfo.cache
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\dotnet03_web_blazor.RazorAssemblyInfo.cs
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\dotnet03_web_blazor.sourcelink.json
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\scopedcss\bundle\dotnet03_web_blazor.styles.css
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\compressed\f3uy9kacyt-bpk8xqwxhs.gz
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\compressed\zxl6syb4uv-8inm30yfxf.gz
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\compressed\1silr6exdp-cmapd0fi15.gz
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\compressed\n9ahkubxoo-wk8x8xm0ah.gz
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\compressed\1i1znkg446-sjnzgf7e1h.gz
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\compressed\te6e4uetpq-5bzwdl5l6x.gz
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\compressed\ui0qt9tcqv-zh9s866nx2.gz
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\staticwebassets.build.json
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\staticwebassets.development.json
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\staticwebassets\msbuild.dotnet03_web_blazor.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\staticwebassets\msbuild.dotnet03_web_blazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\staticwebassets\msbuild.build.dotnet03_web_blazor.props
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.dotnet03_web_blazor.props
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.dotnet03_web_blazor.props
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\staticwebassets.pack.json
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\dotnet03_web_blazor.dll
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\refint\dotnet03_web_blazor.dll
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\dotnet03_web_blazor.pdb
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\dotnet03_web_blazor.genruntimeconfig.cache
+D:\Tài liệu\Bootcamp DotNet 03\BTVN\Buoi31\obj\Debug\net9.0\ref\dotnet03_web_blazor.dll

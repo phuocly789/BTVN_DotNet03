@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ykGb+jKT0z72r3hXh9cULgaXK2B+yodsSYbALAnag6E=",
+  "Hash": "d+fulFjT0DVif63r5cPYy6nCrND3pU9vtrWMvantCUg=",
   "Source": "dotnet03_web_blazor",
   "BasePath": "_content/dotnet03_web_blazor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "dotnet03_web_blazor\\wwwroot",
       "Source": "dotnet03_web_blazor",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\1i1znkg446-sjnzgf7e1h.gz",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\1i1znkg446-sjnzgf7e1h.gz",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint=sjnzgf7e1h}]?.svg.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "RelatedAsset": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "t673mz4ep7",
       "Integrity": "27Y8oN5HwPm3Lnq4ndc6QKUgTo4gMMgp80Rsx7BJueo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+      "OriginalItemSpec": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\1silr6exdp-cmapd0fi15.gz",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\1silr6exdp-cmapd0fi15.gz",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint=cmapd0fi15}]?.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "RelatedAsset": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "qvz7hczgpc",
       "Integrity": "ZkI1/dKtx7cv+T8mJHA/4zRJzY3H+i9h3I+lQMlQ5/I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\f3uy9kacyt-bpk8xqwxhs.gz",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\f3uy9kacyt-bpk8xqwxhs.gz",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=bpk8xqwxhs}]?.css.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "RelatedAsset": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "li2ohn2azb",
       "Integrity": "vS+1ufj92SdpGYtqXPqzcZfZweLNck5DdvtrYoo0Ruc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\n9ahkubxoo-wk8x8xm0ah.gz",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\n9ahkubxoo-wk8x8xm0ah.gz",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint=wk8x8xm0ah}]?.otf.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "RelatedAsset": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "gzw6z059fx",
       "Integrity": "hIC7IZDzsN/8/x7Q4PWDuy8dGV5BpkpIOTA6gK9OXok=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+      "OriginalItemSpec": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\te6e4uetpq-5bzwdl5l6x.gz",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\te6e4uetpq-5bzwdl5l6x.gz",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/README#[.{fingerprint=5bzwdl5l6x}]?.md.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\README.md",
+      "RelatedAsset": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\README.md",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "jbzbw5vlik",
       "Integrity": "cfRN4Q9ELe7iE5XSAxcqFpH53WR0Fjin0dru915oq0Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\README.md"
+      "OriginalItemSpec": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\ui0qt9tcqv-zh9s866nx2.gz",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\ui0qt9tcqv-zh9s866nx2.gz",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/site#[.{fingerprint=zh9s866nx2}]?.css.gz",
       "AssetKind": "All",
@@ -133,20 +133,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\site.css",
+      "RelatedAsset": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "b1cpc6dqu4",
       "Integrity": "L715j+XAyMUxRRdXM7qZJuK6uhQrV2JMoMe++0pdb8o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\site.css"
+      "OriginalItemSpec": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\zxl6syb4uv-8inm30yfxf.gz",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\zxl6syb4uv-8inm30yfxf.gz",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
       "AssetKind": "All",
@@ -154,20 +154,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "RelatedAsset": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "m532s4naxw",
       "Integrity": "epiz+IkftKdCVrNwM3M3b4/Co3mxoqDpjOfMrHfv/7E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\site.css",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\favicon.png",
+      "Identity": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\favicon.png",
       "SourceId": "dotnet03_web_blazor",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\",
+      "ContentRoot": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\",
       "BasePath": "_content/dotnet03_web_blazor",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -440,7 +440,7 @@
   "Endpoints": [
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\f3uy9kacyt-bpk8xqwxhs.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\f3uy9kacyt-bpk8xqwxhs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -503,7 +503,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -548,7 +548,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\f3uy9kacyt-bpk8xqwxhs.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\f3uy9kacyt-bpk8xqwxhs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -601,7 +601,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\f3uy9kacyt-bpk8xqwxhs.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\f3uy9kacyt-bpk8xqwxhs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -656,7 +656,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -693,7 +693,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\zxl6syb4uv-8inm30yfxf.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\zxl6syb4uv-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -756,7 +756,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -801,7 +801,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\zxl6syb4uv-8inm30yfxf.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\zxl6syb4uv-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -854,7 +854,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\f3uy9kacyt-bpk8xqwxhs.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\f3uy9kacyt-bpk8xqwxhs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -899,7 +899,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\zxl6syb4uv-8inm30yfxf.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\zxl6syb4uv-8inm30yfxf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -954,7 +954,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -991,7 +991,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\zxl6syb4uv-8inm30yfxf.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\zxl6syb4uv-8inm30yfxf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1036,7 +1036,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1073,7 +1073,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1118,7 +1118,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\1silr6exdp-cmapd0fi15.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\1silr6exdp-cmapd0fi15.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1181,7 +1181,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1226,7 +1226,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\1silr6exdp-cmapd0fi15.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\1silr6exdp-cmapd0fi15.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1279,7 +1279,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\1silr6exdp-cmapd0fi15.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\1silr6exdp-cmapd0fi15.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1334,7 +1334,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1371,7 +1371,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\1silr6exdp-cmapd0fi15.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\1silr6exdp-cmapd0fi15.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1416,7 +1416,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1461,7 +1461,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.eot",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1498,7 +1498,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1543,7 +1543,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1588,7 +1588,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\n9ahkubxoo-wk8x8xm0ah.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\n9ahkubxoo-wk8x8xm0ah.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1643,7 +1643,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1680,7 +1680,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\n9ahkubxoo-wk8x8xm0ah.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\n9ahkubxoo-wk8x8xm0ah.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1725,7 +1725,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\1i1znkg446-sjnzgf7e1h.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\1i1znkg446-sjnzgf7e1h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1788,7 +1788,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1833,7 +1833,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\1i1znkg446-sjnzgf7e1h.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\1i1znkg446-sjnzgf7e1h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1886,7 +1886,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\1i1znkg446-sjnzgf7e1h.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\1i1znkg446-sjnzgf7e1h.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1941,7 +1941,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1978,7 +1978,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\1i1znkg446-sjnzgf7e1h.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\1i1znkg446-sjnzgf7e1h.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2023,7 +2023,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2060,7 +2060,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\n9ahkubxoo-wk8x8xm0ah.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\n9ahkubxoo-wk8x8xm0ah.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2123,7 +2123,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2168,7 +2168,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\n9ahkubxoo-wk8x8xm0ah.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\n9ahkubxoo-wk8x8xm0ah.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2221,7 +2221,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.woff",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2258,7 +2258,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2295,7 +2295,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2340,7 +2340,7 @@
     },
     {
       "Route": "css/open-iconic/README.5bzwdl5l6x.md",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\te6e4uetpq-5bzwdl5l6x.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\te6e4uetpq-5bzwdl5l6x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2403,7 +2403,7 @@
     },
     {
       "Route": "css/open-iconic/README.5bzwdl5l6x.md",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2448,7 +2448,7 @@
     },
     {
       "Route": "css/open-iconic/README.5bzwdl5l6x.md.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\te6e4uetpq-5bzwdl5l6x.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\te6e4uetpq-5bzwdl5l6x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2501,7 +2501,7 @@
     },
     {
       "Route": "css/open-iconic/README.md",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\te6e4uetpq-5bzwdl5l6x.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\te6e4uetpq-5bzwdl5l6x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2556,7 +2556,7 @@
     },
     {
       "Route": "css/open-iconic/README.md",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2593,7 +2593,7 @@
     },
     {
       "Route": "css/open-iconic/README.md.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\te6e4uetpq-5bzwdl5l6x.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\te6e4uetpq-5bzwdl5l6x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2638,7 +2638,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\ui0qt9tcqv-zh9s866nx2.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\ui0qt9tcqv-zh9s866nx2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2693,7 +2693,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2730,7 +2730,7 @@
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\ui0qt9tcqv-zh9s866nx2.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\ui0qt9tcqv-zh9s866nx2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2775,7 +2775,7 @@
     },
     {
       "Route": "css/site.zh9s866nx2.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\ui0qt9tcqv-zh9s866nx2.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\ui0qt9tcqv-zh9s866nx2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2838,7 +2838,7 @@
     },
     {
       "Route": "css/site.zh9s866nx2.css",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2883,7 +2883,7 @@
     },
     {
       "Route": "css/site.zh9s866nx2.css.gz",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\obj\\Debug\\net9.0\\compressed\\ui0qt9tcqv-zh9s866nx2.gz",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\obj\\Debug\\net9.0\\compressed\\ui0qt9tcqv-zh9s866nx2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2936,7 +2936,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2981,7 +2981,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "D:\\Bootcamp DotNet 03\\BTVN\\Buoi27\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\Tài liệu\\Bootcamp DotNet 03\\BTVN\\Buoi31\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
